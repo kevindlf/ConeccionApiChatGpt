@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de GitHub a Tablas con Bootstrap</title>
+    <!-- Importar estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="mt-5">Repositorios Populares en GitHub</h1>
+    <table class="table table-bordered mt-3">
+        <thead class="thead-light">
+            <tr>
+                <th>ID</th>
+                <th>Nombre del Repositorio</th>
+                <th>Descripción</th>
+                <th>URL</th>
+            </tr>
+        </thead>
+        <tbody id="tablaDatosBody"></tbody>
+    </table>
+</div>
+
+<!-- Importar jQuery y Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Importar el archivo JavaScript externo -->
+<script src="index.js"></script>
+
+</body>
+</html>
